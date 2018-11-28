@@ -13,7 +13,7 @@ import org.opencv.core.Mat;
 import org.opencv.core.Scalar;
 import org.opencv.imgcodecs.Imgcodecs;
 
-public class Main extends Application {
+public class App extends Application {
     public static void main(String[] args) {
         //launch(args);
         //OpenCV.loadLocally();

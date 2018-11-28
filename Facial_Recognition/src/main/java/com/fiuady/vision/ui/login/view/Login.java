@@ -8,8 +8,11 @@ import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseDragEvent;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
@@ -36,6 +39,9 @@ public class Login implements Initializable,LoginView {
 
     @FXML
     private ImageView facialImage;
+
+    @FXML
+    private Label registerView;
 
     private JFXSnackbar loginSnackBar;
     private Stage stage;
@@ -96,4 +102,9 @@ public class Login implements Initializable,LoginView {
     public void blockPasswordField(Boolean disable) {
         passwordField.setDisable(disable);
     }
+    @FXML
+    void Register(MouseEvent event) {
+        Log("Open view rergister");
+    }
+
 }

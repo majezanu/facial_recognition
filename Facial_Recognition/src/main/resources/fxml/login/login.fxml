@@ -5,6 +5,7 @@
 <?import com.jfoenix.controls.JFXTextField?>
 <?import com.jfoenix.controls.JFXToggleButton?>
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -50,8 +51,9 @@
                </children>
             </HBox>
             <JFXToggleButton id="activateCamera" fx:id="activateCamera" layoutX="86.0" layoutY="14.0" onAction="#facialRec" text="Reconocimiento" textFill="#6accc7" />
-            <JFXButton id="loginButton" fx:id="loginButton" layoutX="59.0" layoutY="520.0" onAction="#login" prefHeight="40.0" prefWidth="209.0" style="-fx-background-color: #6accc7; -fx-background-radius: 45;" text="INICIAR SESIÓN" />
+            <JFXButton id="loginButton" fx:id="loginButton" layoutX="59.0" layoutY="484.0" onAction="#login" prefHeight="40.0" prefWidth="209.0" style="-fx-background-color: #6accc7; -fx-background-radius: 45;" text="INICIAR SESIÓN" />
             <ImageView id="facialImage" fx:id="facialImage" fitHeight="252.0" fitWidth="300.0" layoutX="14.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true" />
+            <Label id="registerView" fx:id="registerView" layoutX="132.0" layoutY="535.0" onMouseClicked="#Register" text="Regístrarme" textFill="#6accc7" />
          </children>
       </AnchorPane>
    </children>
