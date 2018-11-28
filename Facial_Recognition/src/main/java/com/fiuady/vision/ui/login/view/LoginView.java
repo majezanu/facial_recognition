@@ -1,4 +1,7 @@
 package com.fiuady.vision.ui.login.view;
 
-public interface LoginView {
+import com.fiuady.vision.ui.utils.Utils;
+
+public interface LoginView extends Utils {
+    void blockPasswordField(Boolean disabled);
 }

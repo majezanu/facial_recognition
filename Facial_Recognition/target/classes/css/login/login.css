@@ -1,0 +1,27 @@
+.root{
+    -fx-background-color: linear-gradient(#3f5270,#4e8aed);
+
+}
+.text-input {
+    -fx-text-fill: -fx-text-inner-color;
+    -fx-highlight-fill: derive(-fx-control-inner-background,-20%);
+    -fx-highlight-text-fill: -fx-text-inner-color;
+    -fx-prompt-text-fill: #81bfe8;
+    -fx-font-size: 13pt ;
+    -fx-cursor: text;
+    -fx-padding: 0.333333em 0.583em 0.333333em 0.583em; /* 4 7 4 7 */
+}
+.text-input:focused {
+    -fx-highlight-fill: #6accc7;
+    -fx-highlight-text-fill: white;
+    -fx-font-size: 13pt ;
+    -fx-prompt-text-fill: transparent;
+}
+
+.jfx-snackbar-content {
+    -fx-background-color: BLACK;
+}
+.jfx-snackbar-toast {
+    -fx-text-fill: WHITE;
+    -fx-font-size: 12;
+}
