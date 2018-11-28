@@ -49,9 +49,7 @@ public class LoginPresenterImpl implements LoginPresenter {
     }
     private void video(){
         capture = new VideoCapture();
-        if(!capture.isOpened()){
-            capture.open(0);
-        }
+        capture.open(0);
         Runnable frameGrabber = new Runnable() {
 
             @Override
@@ -77,7 +75,7 @@ public class LoginPresenterImpl implements LoginPresenter {
                     MatOfByte buffer = new MatOfByte();
                     Imgcodecs.imencode(".png", frame, buffer);
                     imageFrame = new Image(new ByteArrayInputStream(buffer.toArray()));
-
+                    view.setFacialImage(imageFrame);
                 }
 
             } catch (Exception e) {
@@ -89,6 +87,7 @@ public class LoginPresenterImpl implements LoginPresenter {
     }
     private void closeCamera(){
         if(capture.isOpened()){
+            timer.shutdownNow();
             capture.release();
         }
     }
