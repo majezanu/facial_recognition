@@ -8,6 +8,8 @@ import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
@@ -31,6 +33,9 @@ public class Login implements Initializable,LoginView {
 
     @FXML
     private JFXToggleButton activateCamera;
+
+    @FXML
+    private ImageView facialImage;
 
     private JFXSnackbar loginSnackBar;
     private Stage stage;
@@ -70,6 +75,16 @@ public class Login implements Initializable,LoginView {
             }
         });
 
+    }
+
+    @Override
+    public void setFacialImage(Image i) {
+        Platform.runLater(new Runnable() {
+            @Override
+            public void run() {
+                facialImage.setImage(i);
+            }
+        });
     }
 
     @Override
