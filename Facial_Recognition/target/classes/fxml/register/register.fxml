@@ -4,6 +4,7 @@
 <?import com.jfoenix.controls.JFXPasswordField?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -12,7 +13,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane alignment="center" hgap="10" prefHeight="603.0" prefWidth="401.0" styleClass="root" stylesheets="@../../css/login/login.css" vgap="10" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fiuady.vision.ui.register.view.Register">
+<GridPane alignment="center" hgap="10" prefHeight="647.0" prefWidth="405.0" styleClass="root" stylesheets="@../../css/login/login.css" vgap="10" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fiuady.vision.ui.register.view.Register">
    <columnConstraints>
       <ColumnConstraints />
       <ColumnConstraints />
@@ -22,9 +23,9 @@
       <RowConstraints />
    </rowConstraints>
    <children>
-      <AnchorPane id="rootPane" fx:id="rootPane" prefHeight="582.0" prefWidth="328.0">
+      <AnchorPane id="rootPane" fx:id="rootPane" prefHeight="618.0" prefWidth="328.0">
          <children>
-            <HBox layoutX="28.0" layoutY="271.0" prefHeight="40.0" prefWidth="272.0">
+            <HBox layoutX="28.0" layoutY="296.0" prefHeight="40.0" prefWidth="272.0">
                <children>
                   <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -38,7 +39,7 @@
                   </JFXTextField>
                </children>
             </HBox>
-            <HBox layoutX="28.0" layoutY="373.0" prefHeight="40.0" prefWidth="272.0">
+            <HBox layoutX="28.0" layoutY="429.0" prefHeight="40.0" prefWidth="272.0">
                <children>
                   <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -48,10 +49,9 @@
                   <JFXPasswordField id="validatePasswordField" fx:id="validatePasswordField" focusColor="#6accc7" labelFloat="true" prefHeight="38.0" prefWidth="253.0" promptText="Confirma Contraseña" style="-jfx-label-float: true;" styleClass="text-field" unFocusColor="WHITE" />
                </children>
             </HBox>
-            <JFXButton id="rergisterButton" fx:id="registerButton" layoutX="59.0" layoutY="520.0" onAction="#register" prefHeight="40.0" prefWidth="209.0" style="-fx-background-color: #6accc7; -fx-background-radius: 45;" text="REGISTRARME" />
-            <ImageView id="facialImage" fx:id="facialImage" fitHeight="252.0" fitWidth="300.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <JFXButton id="rergisterButton" fx:id="registerButton" layoutX="59.0" layoutY="556.0" onAction="#register" prefHeight="40.0" prefWidth="209.0" style="-fx-background-color: #6accc7; -fx-background-radius: 45;" text="REGISTRARME" />
             <JFXButton id="capturePhoto" fx:id="capturePhoto" layoutX="252.0" layoutY="14.0" onAction="#capture" text="Capturar" />
-            <HBox layoutX="28.0" layoutY="321.0" prefHeight="40.0" prefWidth="272.0">
+            <HBox layoutX="28.0" layoutY="361.0" prefHeight="40.0" prefWidth="272.0">
                <children>
                   <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -61,7 +61,7 @@
                   <JFXPasswordField id="passwordField" fx:id="passwordField" focusColor="#6accc7" labelFloat="true" prefHeight="38.0" prefWidth="253.0" promptText="Contraseña" style="-jfx-label-float: true;" styleClass="text-field" unFocusColor="WHITE" />
                </children>
             </HBox>
-            <HBox layoutX="28.0" layoutY="430.0" prefHeight="40.0" prefWidth="272.0">
+            <HBox layoutX="28.0" layoutY="493.0" prefHeight="40.0" prefWidth="272.0">
                <children>
                   <ImageView fitHeight="38.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -71,6 +71,9 @@
                   <JFXPasswordField id="telNumber" fx:id="telNumber" accessibleRole="TEXT_FIELD" focusColor="#6accc7" labelFloat="true" prefHeight="38.0" prefWidth="253.0" promptText="Número de Teléfono" style="-jfx-label-float: true;" styleClass="text-field" unFocusColor="WHITE" />
                </children>
             </HBox>
+            <Label layoutX="-21.0" layoutY="5.0" text="¿Ya tienes cuenta?" />
+            <JFXButton id="loginButton" fx:id="loginButton" layoutX="-15.0" layoutY="26.0" onAction="#login" prefHeight="17.0" prefWidth="85.0" style="-fx-background-color: #6accc7; -fx-background-radius: 45;" text="Inicia Sesión" />
+            <ImageView id="imageFaces" fx:id="imageFaces" fitHeight="207.0" fitWidth="272.0" layoutX="28.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </AnchorPane>
    </children>

@@ -2,13 +2,13 @@ package com.fiuady.vision.ui.login.presenter;
 
 import com.fiuady.vision.data.local.User;
 import com.fiuady.vision.ui.login.view.LoginView;
+import com.fiuady.vision.vision.FaceDetecting.FaceDetecting;
+import com.fiuady.vision.vision.FaceDetecting.FaceDetectingListener;
+import com.fiuady.vision.vision.Utils.Utils;
 import javafx.scene.image.Image;
 import org.opencv.core.Mat;
-import org.opencv.core.MatOfByte;
-import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.videoio.VideoCapture;
 
-import java.io.ByteArrayInputStream;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -19,9 +19,14 @@ public class LoginPresenterImpl implements LoginPresenter {
     private VideoCapture capture;
     private ScheduledExecutorService timer;
     private Mat frame = new Mat();
+    private Mat frameWithFaces;
     private Image imageFrame;
+    private FaceDetectingListener faceDetectingListener;
+    private Utils visionUtils;
     public LoginPresenterImpl(LoginView view) {
         this.view = view;
+        faceDetectingListener = new FaceDetecting();
+        visionUtils = new Utils();
     }
     @Override
     public void validateLogin(final User u) {
@@ -42,6 +47,7 @@ public class LoginPresenterImpl implements LoginPresenter {
         if(b){
             fieldsEmpty = "Debes ingresar el nombre de usuario";
             video();
+
         }else {
             fieldsEmpty = "Debes ingresar todos los campos";
             closeCamera();
@@ -72,10 +78,8 @@ public class LoginPresenterImpl implements LoginPresenter {
 
                 // if the frame is not empty, process it
                 if (!frame.empty()){
-                    MatOfByte buffer = new MatOfByte();
-                    Imgcodecs.imencode(".png", frame, buffer);
-                    imageFrame = new Image(new ByteArrayInputStream(buffer.toArray()));
-                    view.setFacialImage(imageFrame);
+
+                    view.setFacialImage(visionUtils.matToImage(faceDetectingListener.detect(frame)));
                 }
 
             } catch (Exception e) {
@@ -86,9 +90,17 @@ public class LoginPresenterImpl implements LoginPresenter {
 
     }
     private void closeCamera(){
-        if(capture.isOpened()){
-            timer.shutdownNow();
-            capture.release();
+        if(capture != null){
+            if(capture.isOpened()){
+                timer.shutdownNow();
+                capture.release();
+            }
         }
+
+    }
+
+    @Override
+    public void releaseCamera() {
+        closeCamera();
     }
 }
