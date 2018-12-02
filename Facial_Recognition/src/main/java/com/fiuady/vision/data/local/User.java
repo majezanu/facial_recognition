@@ -5,10 +5,12 @@ public class User {
     private String password;
     private String telNumber;
 
+
     public User(String userName, String password) {
         this.userName = userName;
         this.password = password;
     }
+
 
     public User(String userName, String password, String telNumber) {
         this.userName = userName;

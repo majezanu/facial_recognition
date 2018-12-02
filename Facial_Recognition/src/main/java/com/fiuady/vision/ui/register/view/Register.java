@@ -65,12 +65,14 @@ public class Register implements Initializable,RegisterView {
 
     @FXML
     void capture(ActionEvent event) {
-
+        presenter.activateCamera(true);
     }
 
     @FXML
     void login(ActionEvent event) {
         try {
+            stage.close();
+
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/login/login.fxml"));
             Parent loginParent = (Parent) loader.load();
             Stage loginStage = new Stage();
@@ -79,8 +81,6 @@ public class Register implements Initializable,RegisterView {
             loginStage.setScene(new Scene(loginParent));
             loginStage.show();
             login.setStage(loginStage);
-
-            stage.close();
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -128,7 +128,7 @@ public class Register implements Initializable,RegisterView {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         presenter = new RegisterPresenterImpl(this);
-        presenter.activateCamera(true);
+        blockCaptureButton(true);
     }
 
     @Override
@@ -146,5 +146,10 @@ public class Register implements Initializable,RegisterView {
         password = passwordField.getText();
         passwordAgain = validatePasswordField.getText();
         number = telNumber.getText();
+    }
+
+    @Override
+    public void blockCaptureButton(boolean block) {
+        capturePhoto.setDisable(block);
     }
 }

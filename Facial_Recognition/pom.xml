@@ -44,5 +44,11 @@
             <artifactId>javacv-platform</artifactId>
             <version>1.4.3</version>
         </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-agroal</artifactId>
+            <version>5.4.0.CR2</version>
+            <type>pom</type>
+        </dependency>
     </dependencies>
 </project>

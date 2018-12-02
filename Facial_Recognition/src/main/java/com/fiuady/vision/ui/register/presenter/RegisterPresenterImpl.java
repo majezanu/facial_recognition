@@ -4,6 +4,8 @@ import com.fiuady.vision.data.local.User;
 import com.fiuady.vision.ui.register.view.RegisterView;
 import com.fiuady.vision.vision.FaceDetecting.FaceDetecting;
 import com.fiuady.vision.vision.FaceDetecting.FaceDetectingListener;
+import com.fiuady.vision.vision.SaveFaces.SaveFaces;
+import com.fiuady.vision.vision.SaveFaces.SaveFacesListener;
 import com.fiuady.vision.vision.Utils.Utils;
 import javafx.scene.image.Image;
 import org.opencv.core.Mat;
@@ -22,10 +24,17 @@ public class RegisterPresenterImpl implements RegisterPresenter {
     private FaceDetectingListener faceDetectingListener;
     private RegisterView view;
     private Utils visionUtils;
+    private SaveFacesListener saveFacesListener;
+    private SaveFaces saveFaces;
+    private String fileName;
+    private int count;
+    private User user;
     public RegisterPresenterImpl(RegisterView view) {
         this.view = view;
         faceDetectingListener = new FaceDetecting();
+        ((FaceDetecting) faceDetectingListener).setRegPresenter(this);
         visionUtils = new Utils();
+        saveFaces = new SaveFaces();
     }
 
     @Override
@@ -65,7 +74,12 @@ public class RegisterPresenterImpl implements RegisterPresenter {
 
                 // if the frame is not empty, process it
                 if (!frame.empty()){
+                    count++;
                      view.setFacialImage(visionUtils.matToImage(faceDetectingListener.detect(frame)));
+                     if(count == 15){
+                         closeCamera();
+                         view.blockCaptureButton(true);
+                     }
                 }
 
             } catch (Exception e) {
@@ -104,6 +118,8 @@ public class RegisterPresenterImpl implements RegisterPresenter {
             if(pass.isEmpty()){
                 error = true;
                 view.showSnackBar("Debes ingresar una contraseña");
+
+            }else{
                 if(passAgain.isEmpty()){
                     error = true;
                     view.showSnackBar("Debes validar tu contraseña");
@@ -119,9 +135,27 @@ public class RegisterPresenterImpl implements RegisterPresenter {
 
         }
         if(!error){
-            User user = new User(username,pass,number);
+            user = new User(username,pass,number);
             view.showSnackBar("Usuario '"+user.getUserName()+"' creado");
+            view.blockCaptureButton(false);
+
+        }else{
+            view.blockCaptureButton(true);
         }
 
+    }
+   //private boolean saveUser(User u){
+   //    User user =
+   //}
+
+
+    @Override
+    public void saveImage( Mat toSave) {
+        fileName = user.getUserName()+"-"+String.valueOf(count)+".png";
+        saveFaces.setFileName(fileName);
+        saveFaces.makePath();
+        saveFaces.setToSave(toSave);
+        saveFacesListener = saveFaces;
+        saveFacesListener.saveImage();
     }
 }

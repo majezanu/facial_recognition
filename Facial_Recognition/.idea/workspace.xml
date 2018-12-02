@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff5a93d0-2474-4bcd-89bf-cb9955df10c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/presenter/LoginPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/presenter/LoginPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/presenter/LoginPresenterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/presenter/LoginPresenterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/view/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/view/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/data/local/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/data/local/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/presenter/RegisterPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/presenter/RegisterPresenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/presenter/RegisterPresenterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/presenter/RegisterPresenterImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/view/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/view/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/view/RegisterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/view/RegisterView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/register/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/register/register.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/login/presenter/LoginPresenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/login/presenter/LoginPresenter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/login/presenter/LoginPresenterImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/login/presenter/LoginPresenterImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/login/presenter/LoginPresenterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/login/presenter/LoginPresenterImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/login/view/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/login/view/Login$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/login/view/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/login/view/Login$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/login/view/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/login/view/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/register/presenter/RegisterPresenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/register/presenter/RegisterPresenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/FaceDetecting/FaceDetecting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/FaceDetecting/FaceDetecting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/Utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/Utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/Utils/UtilsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/Utils/UtilsListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/register/presenter/RegisterPresenterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/register/presenter/RegisterPresenterImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/register/view/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/register/view/Register.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/register/view/RegisterView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fiuady/vision/ui/register/view/RegisterView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/register/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/register/register.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,39 +59,42 @@
     <session id="484938034">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="fxml" value="43" />
-          <entry key="java" value="2924" />
-          <entry key="xml" value="6" />
+          <entry key="java" value="4067" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2924" />
-          <entry key="XML" value="49" />
+          <entry key="JAVA" value="4067" />
+          <entry key="XML" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
           <entry key="css" value="2" />
           <entry key="fxml" value="8" />
-          <entry key="java" value="31" />
+          <entry key="java" value="38" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
           <entry key="CSS" value="2" />
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="38" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
@@ -109,34 +103,54 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/view/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="95" column="11" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="95" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/FaceDetecting/FaceDetecting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-334">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="230">
+              <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1835#1836#0" expanded="true" />
+                <element signature="e#1870#1871#0" expanded="true" />
+                <element signature="e#2032#2033#0" expanded="true" />
+                <element signature="e#2067#2068#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/FaceDetecting/FaceDetectingListener.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/SaveFaces/SaveFaces.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="122">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#962#963#0" expanded="true" />
+                <element signature="e#1002#1003#0" expanded="true" />
+                <element signature="e#1190#1191#0" expanded="true" />
+                <element signature="e#1236#1237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/SaveFaces/SaveFacesListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -144,68 +158,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/presenter/RegisterPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="184">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/view/Register.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="152" column="28" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1745#1746#0" expanded="true" />
+                <element signature="e#1791#1792#0" expanded="true" />
+                <element signature="e#3984#3985#0" expanded="true" />
+                <element signature="e#4025#4026#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/view/Register.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="147" column="37" lean-forward="true" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1968#1969#0" expanded="true" />
-                <element signature="e#1995#1996#0" expanded="true" />
-                <element signature="e#3107#3108#0" expanded="true" />
-                <element signature="e#3165#3166#0" expanded="true" />
-                <element signature="e#2590#2591#0" expanded="true" />
-                <element signature="e#2626#2627#0" expanded="true" />
-                <element signature="e#3626#3627#0" expanded="true" />
-                <element signature="e#3680#3681#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/presenter/LoginPresenterImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#activateCamera#0;class#LoginPresenterImpl#0" />
-                <element signature="method#video#0;class#LoginPresenterImpl#0" />
-                <element signature="method#closeCamera#0;class#LoginPresenterImpl#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/presenter/RegisterPresenterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-87">
-              <caret line="110" column="13" lean-forward="true" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+            <state relative-caret-position="278">
+              <caret line="80" column="53" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#video#0;class#RegisterPresenterImpl#0" />
-                <element signature="method#closeCamera#0;class#RegisterPresenterImpl#0" />
-                <element signature="e#2908#2909#0" expanded="true" />
-                <element signature="e#2937#2938#0" expanded="true" />
+                <element signature="e#2975#2976#0" expanded="true" />
+                <element signature="e#3004#3005#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/data/local/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+            <state relative-caret-position="138">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -213,8 +206,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/Utils/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="324">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -225,8 +218,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/Utils/UtilsListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="184">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -256,6 +249,11 @@
       <find>iMAGE</find>
       <find>register</find>
       <find>show</find>
+      <find>close</find>
+      <find>setStage</find>
+      <find>capture</find>
+      <find>sa</find>
+      <find>Faces</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -274,20 +272,25 @@
         <option value="$PROJECT_DIR$/src/main/resources/fxml/login/login.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/view/LoginView.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/view/RegisterPresenter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/data/local/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/presenter/LoginPresenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/view/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/FaceDetectingListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/FaceDetecting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/view/RegisterView.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/register/register.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/UtilsListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/presenter/LoginPresenterImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/presenter/RegisterPresenter.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/view/RegisterView.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/view/Register.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/SaveFaces/SaveFacesListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/Utils/UtilsListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/presenter/RegisterPresenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/data/local/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/SaveFaces/SaveFaces.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/Utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/FaceDetecting/FaceDetecting.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/presenter/RegisterPresenterImpl.java" />
       </list>
     </option>
@@ -312,6 +315,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,6 +349,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="vision" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Facial_Recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Facial_Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vision" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Facial_Recognition" type="b2602c69:ProjectViewProjectNode" />
@@ -442,6 +456,26 @@
               <item name="Facial_Recognition" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vision" type="462c0819:PsiDirectoryNode" />
+              <item name="vision" type="462c0819:PsiDirectoryNode" />
+              <item name="SaveFaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Facial_Recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Facial_Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vision" type="462c0819:PsiDirectoryNode" />
+              <item name="vision" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Facial_Recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Facial_Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -474,8 +508,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -558,15 +590,15 @@
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2558607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26590756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997175" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -609,6 +641,24 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/SaveFaces/SaveFaces.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/presenter/RegisterPresenterImpl.java</url>
+          <line>158</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/Data/Local/Model/User.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/LoginPresenter.java" />
@@ -640,27 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/data/local/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -682,19 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/view/RegisterView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,9 +730,16 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/FaceDetecting/FaceDetectingListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/presenter/LoginPresenterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="391">
           <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -727,37 +750,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/Utils/Utils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/view/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="198">
+          <caret line="116" column="42" selection-start-line="115" selection-start-column="51" selection-end-line="116" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/view/RegisterView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/SaveFaces/SaveFacesListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/view/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="152" column="28" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1791#1792#0" expanded="true" />
+            <element signature="e#3984#3985#0" expanded="true" />
+            <element signature="e#4025#4026#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/Utils/UtilsListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/FaceDetecting/FaceDetectingListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/FaceDetecting/FaceDetecting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-334">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="184">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -766,56 +807,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/presenter/RegisterPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="184">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/data/local/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/login/view/Login.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openpnp/opencv/3.2.0-0/opencv-3.2.0-0.jar!/org/opencv/imgcodecs/Imgcodecs.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="95" column="11" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="95" selection-end-column="11" />
+        <state relative-caret-position="146">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/Utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/SaveFaces/SaveFaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1236#1237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/vision/FaceDetecting/FaceDetecting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1835#1836#0" expanded="true" />
+            <element signature="e#1870#1871#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="e#2067#2068#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/presenter/RegisterPresenterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="110" column="13" lean-forward="true" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+        <state relative-caret-position="278">
+          <caret line="80" column="53" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#video#0;class#RegisterPresenterImpl#0" />
-            <element signature="method#closeCamera#0;class#RegisterPresenterImpl#0" />
-            <element signature="e#2908#2909#0" expanded="true" />
-            <element signature="e#2937#2938#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fiuady/vision/ui/register/view/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="147" column="37" lean-forward="true" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-            <element signature="e#1995#1996#0" expanded="true" />
-            <element signature="e#3107#3108#0" expanded="true" />
-            <element signature="e#3165#3166#0" expanded="true" />
-            <element signature="e#2590#2591#0" expanded="true" />
-            <element signature="e#2626#2627#0" expanded="true" />
-            <element signature="e#3626#3627#0" expanded="true" />
-            <element signature="e#3680#3681#0" expanded="true" />
+            <element signature="e#2975#2976#0" expanded="true" />
+            <element signature="e#3004#3005#0" expanded="true" />
           </folding>
         </state>
       </provider>
